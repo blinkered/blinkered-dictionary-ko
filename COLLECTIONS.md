@@ -15,7 +15,7 @@ collection rather than reuse its record only has to put the file back where the 
 | `fw2` | 975,146,299 |  | — |
 | `wiki:ko` | 221,483,630 |  | — |
 | `wikisource:ko` | 49,874,098 |  | — |
-| `ia` | 10,566,338 | Internet Archive korean books — literature, and the register a newspaper never reaches | [archive-ko](https://archive.org/details/booksbylanguage_korean) |
+| `ia` | 21,323,147 | Internet Archive korean books — literature, and the register a newspaper never reaches | [archive-ko](https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22kor%22) |
 | `web:joongang.co.kr` | 502,286 |  | fetched from `joongang.co.kr`, recorded in `searched.tsv` |
 | `web:yna.co.kr` | 387,497 |  | fetched from `yna.co.kr`, recorded in `searched.tsv` |
 | `web:mk.co.kr` | 273,016 |  | fetched from `mk.co.kr`, recorded in `searched.tsv` |
