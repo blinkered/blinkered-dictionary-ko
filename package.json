@@ -7,7 +7,8 @@
     "build": "node build.mjs",
     "conform": "node conform.mjs",
     "saturation": "node saturation.mjs",
-    "verify": "node verify.mjs"
+    "verify": "node verify.mjs",
+    "dumps": "node check-dumps.mjs"
   },
   "dependencies": {
     "@blinkered/attestation": "link:../blinkered-attestation",
