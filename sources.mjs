@@ -90,9 +90,26 @@ export const SOURCES = [
     from: 'https://archive.org/details/booksbylanguage_korean',
     documents: () => {
       const dir = `${CACHE}archive-ko`
+      // A locator names the text, not the item: the catalogue page holds no word of the book.
+      // `files.tsv` maps an item to the file we read; a book with no recorded name is skipped
+      // rather than cited at a page that cannot support it.
+      const named = new Map(
+        readFileSync(`${dir}/files.tsv`, 'utf8')
+          .split('\n')
+          .filter(Boolean)
+          .map((line) => line.split('\t')),
+      )
       const books = readdirSync(dir)
         .filter((file) => file.endsWith('.txt'))
-        .map((file) => ({ locator: file.replace('.txt', ''), path: `${dir}/${file}` }))
+        .map((file) => file.replace('.txt', ''))
+        .filter((id) => named.has(id))
+        // The filename is percent-encoded: two thirds of them contain spaces, and a locator with
+        // a space in it would split into two locators, because the evidence format spends spaces
+        // as separators. Encoding is also what the URL needs.
+        .map((id) => ({
+          locator: `${id}/${encodeURIComponent(named.get(id))}`,
+          path: `${dir}/${id}.txt`,
+        }))
       return fileDocuments(books, async (path) => readFileSync(path, 'utf8'))
     },
   },
