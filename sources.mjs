@@ -87,7 +87,9 @@ export const SOURCES = [
     legible: 0.35,
     what: 'Internet Archive korean books — literature, and the register a newspaper never reaches',
     needs: `${CACHE}archive-ko`,
-    from: 'https://archive.org/details/booksbylanguage_korean',
+    // Not `booksbylanguage_korean`, which holds 441 items. Searching the language field
+    // reaches 30,839, and that is what was actually fetched.
+    from: 'https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22kor%22',
     documents: () => {
       const dir = `${CACHE}archive-ko`
       // A locator names the text, not the item: the catalogue page holds no word of the book.
