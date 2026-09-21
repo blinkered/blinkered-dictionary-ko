@@ -79,6 +79,23 @@ export const SOURCES = [
     needs: `${CACHE}fineweb2-kor.parquet`,
     documents: () => fineweb2Documents(`${CACHE}fineweb2-kor.parquet`),
   },
+  {
+    id: 'ia',
+    // Scanned books are OCR, and OCR fails in a way that looks like text. Clean Gutenberg scores
+    // a median 52% known words and never below 36%; the worst of these scored 1%, an English
+    // book read as Cyrillic. Below this floor a book is not legible enough to attest anything.
+    legible: 0.35,
+    what: 'Internet Archive korean books — literature, and the register a newspaper never reaches',
+    needs: `${CACHE}archive-ko`,
+    from: 'https://archive.org/details/booksbylanguage_korean',
+    documents: () => {
+      const dir = `${CACHE}archive-ko`
+      const books = readdirSync(dir)
+        .filter((file) => file.endsWith('.txt'))
+        .map((file) => ({ locator: file.replace('.txt', ''), path: `${dir}/${file}` }))
+      return fileDocuments(books, async (path) => readFileSync(path, 'utf8'))
+    },
+  },
 ].filter((source) => {
   // A collection that has not been downloaded is skipped with a warning rather than crashing
   // the build, and which collections a language actually has is a fact worth seeing in the log.

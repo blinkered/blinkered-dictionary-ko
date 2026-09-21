@@ -2,11 +2,11 @@
   "language": "ko",
   "built": "2026-09-21",
   "candidates": 38467,
-  "shipped": 18280,
+  "shipped": 23433,
   "conforms": true,
-  "families": 23,
-  "checkable": 22,
-  "knee": 6,
+  "families": 24,
+  "checkable": 23,
+  "knee": 5,
   "steps": [
     {
       "families": 1,
@@ -24,149 +24,156 @@
     },
     {
       "families": 3,
-      "added": "joongang.co.kr",
-      "kept": 13937,
-      "share": 0.362311,
-      "gained": 13937
+      "added": "internetarchive",
+      "kept": 19600,
+      "share": 0.509528,
+      "gained": 19600
     },
     {
       "families": 4,
-      "added": "ac.kr",
-      "kept": 14951,
-      "share": 0.388671,
-      "gained": 1014
+      "added": "joongang.co.kr",
+      "kept": 21913,
+      "share": 0.569657,
+      "gained": 2313
     },
     {
       "families": 5,
       "added": "khan.co.kr",
-      "kept": 15858,
-      "share": 0.412249,
-      "gained": 907
+      "kept": 22246,
+      "share": 0.578314,
+      "gained": 333
     },
     {
       "families": 6,
-      "added": "seoul.co.kr",
-      "kept": 16282,
-      "share": 0.423272,
-      "gained": 424
+      "added": "ac.kr",
+      "kept": 22469,
+      "share": 0.584111,
+      "gained": 223
     },
     {
       "families": 7,
-      "added": "yna.co.kr",
-      "kept": 16605,
-      "share": 0.431669,
-      "gained": 323
+      "added": "seoul.co.kr",
+      "kept": 22617,
+      "share": 0.587959,
+      "gained": 148
     },
     {
       "families": 8,
-      "added": "tatoeba",
-      "kept": 16852,
-      "share": 0.43809,
-      "gained": 247
+      "added": "yna.co.kr",
+      "kept": 22736,
+      "share": 0.591052,
+      "gained": 119
     },
     {
       "families": 9,
-      "added": "mk.co.kr",
-      "kept": 17073,
-      "share": 0.443835,
-      "gained": 221
+      "added": "tatoeba",
+      "kept": 22847,
+      "share": 0.593938,
+      "gained": 111
     },
     {
       "families": 10,
       "added": "jtbc.co.kr",
-      "kept": 17274,
-      "share": 0.44906,
-      "gained": 201
+      "kept": 22937,
+      "share": 0.596277,
+      "gained": 90
     },
     {
       "families": 11,
-      "added": "munhwa.com",
-      "kept": 17464,
-      "share": 0.454,
-      "gained": 190
+      "added": "hankyung.com",
+      "kept": 23023,
+      "share": 0.598513,
+      "gained": 86
     },
     {
       "families": 12,
-      "added": "hankyung.com",
-      "kept": 17615,
-      "share": 0.457925,
-      "gained": 151
+      "added": "munhwa.com",
+      "kept": 23099,
+      "share": 0.600489,
+      "gained": 76
     },
     {
       "families": 13,
-      "added": "hankookilbo.com",
-      "kept": 17757,
-      "share": 0.461616,
-      "gained": 142
+      "added": "mk.co.kr",
+      "kept": 23164,
+      "share": 0.602178,
+      "gained": 65
     },
     {
       "families": 14,
-      "added": "zdnet.co.kr",
-      "kept": 17887,
-      "share": 0.464996,
-      "gained": 130
+      "added": "hankookilbo.com",
+      "kept": 23214,
+      "share": 0.603478,
+      "gained": 50
     },
     {
       "families": 15,
-      "added": "sisain.co.kr",
-      "kept": 17997,
-      "share": 0.467856,
-      "gained": 110
+      "added": "zdnet.co.kr",
+      "kept": 23264,
+      "share": 0.604778,
+      "gained": 50
     },
     {
       "families": 16,
       "added": "segye.com",
-      "kept": 18102,
-      "share": 0.470585,
-      "gained": 105
+      "kept": 23313,
+      "share": 0.606052,
+      "gained": 49
     },
     {
       "families": 17,
-      "added": "ohmynews.com",
-      "kept": 18167,
-      "share": 0.472275,
-      "gained": 65
+      "added": "sisain.co.kr",
+      "kept": 23358,
+      "share": 0.607222,
+      "gained": 45
     },
     {
       "families": 18,
       "added": "korea.kr",
-      "kept": 18223,
-      "share": 0.473731,
-      "gained": 56
+      "kept": 23384,
+      "share": 0.607898,
+      "gained": 26
     },
     {
       "families": 19,
-      "added": "mediatoday.co.kr",
-      "kept": 18251,
-      "share": 0.474459,
-      "gained": 28
+      "added": "ohmynews.com",
+      "kept": 23407,
+      "share": 0.608496,
+      "gained": 23
     },
     {
       "families": 20,
-      "added": "bloter.net",
-      "kept": 18279,
-      "share": 0.475187,
-      "gained": 28
+      "added": "mediatoday.co.kr",
+      "kept": 23422,
+      "share": 0.608886,
+      "gained": 15
     },
     {
       "families": 21,
-      "added": "imbc.com",
-      "kept": 18280,
-      "share": 0.475213,
-      "gained": 1
+      "added": "bloter.net",
+      "kept": 23433,
+      "share": 0.609171,
+      "gained": 11
     },
     {
       "families": 22,
       "added": "etnews.com",
-      "kept": 18280,
-      "share": 0.475213,
+      "kept": 23433,
+      "share": 0.609171,
       "gained": 0
     },
     {
       "families": 23,
+      "added": "imbc.com",
+      "kept": 23433,
+      "share": 0.609171,
+      "gained": 0
+    },
+    {
+      "families": 24,
       "added": "donga.com",
-      "kept": 18280,
-      "share": 0.475213,
+      "kept": 23433,
+      "share": 0.609171,
       "gained": 0
     }
   ]

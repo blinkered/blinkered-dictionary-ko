@@ -12,9 +12,10 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
-| `fw2` | 975,146,299 | FineWeb-2 — the crawled web, each document citing its own URL | [fineweb2-kor.parquet](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/kor_Hang/train/000_00000.parquet) |
-| `wiki:ko` | 221,483,630 | Korean Wikipedia — modern encyclopedic prose | [kowiki.xml.bz2](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2) |
-| `wikisource:ko` | 49,874,098 | Wikisource — same Wikimedia family, so it corroborates rather than counts | [kowikisource.xml.bz2](https://dumps.wikimedia.org/kowikisource/latest/kowikisource-latest-pages-articles.xml.bz2) |
+| `fw2` | 975,146,299 |  | — |
+| `wiki:ko` | 221,483,630 |  | — |
+| `wikisource:ko` | 49,874,098 |  | — |
+| `ia` | 8,080,016 | Internet Archive korean books — literature, and the register a newspaper never reaches | [archive-ko](https://archive.org/details/booksbylanguage_korean) |
 | `web:joongang.co.kr` | 502,286 |  | fetched from `joongang.co.kr`, recorded in `searched.tsv` |
 | `web:yna.co.kr` | 387,497 |  | fetched from `yna.co.kr`, recorded in `searched.tsv` |
 | `web:mk.co.kr` | 273,016 |  | fetched from `mk.co.kr`, recorded in `searched.tsv` |
@@ -26,7 +27,7 @@ collection rather than reuse its record only has to put the file back where the 
 | `web:hankyung.com` | 83,243 |  | fetched from `hankyung.com`, recorded in `searched.tsv` |
 | `web:hankookilbo.com` | 82,030 |  | fetched from `hankookilbo.com`, recorded in `searched.tsv` |
 | `web:khan.co.kr` | 70,709 |  | fetched from `khan.co.kr`, recorded in `searched.tsv` |
-| `tat` | 65,409 | Tatoeba — contemporary, conversational | [kor_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/kor/kor_sentences.tsv.bz2) |
+| `tat` | 65,409 |  | — |
 | `web:zdnet.co.kr` | 53,706 |  | fetched from `zdnet.co.kr`, recorded in `searched.tsv` |
 | `web:mediatoday.co.kr` | 52,398 |  | fetched from `mediatoday.co.kr`, recorded in `searched.tsv` |
 | `web:bloter.net` | 43,932 |  | fetched from `bloter.net`, recorded in `searched.tsv` |
