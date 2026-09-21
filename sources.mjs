@@ -66,12 +66,15 @@ export const SOURCES = [
   },
   {
     id: 'tat',
+    from: 'https://downloads.tatoeba.org/exports/per_language/kor/kor_sentences.tsv.bz2',
     what: 'Tatoeba — contemporary, conversational',
     needs: `${CACHE}kor_sentences.tsv`,
     documents: () => tatoebaDocuments(`${CACHE}kor_sentences.tsv`),
   },
   {
     id: 'fw2',
+    // Where it came from, so a half-finished download is caught before it is read.
+    from: 'https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/kor_Hang/train/000_00000.parquet',
     what: 'FineWeb-2 — the crawled web, each document citing its own URL',
     needs: `${CACHE}fineweb2-kor.parquet`,
     documents: () => fineweb2Documents(`${CACHE}fineweb2-kor.parquet`),
@@ -108,6 +111,12 @@ export const HARVEST = existsSync(new URL('searched.tsv', import.meta.url).pathn
  * left-leaning independent, a tech title and a government portal do not write the same Korean.
  */
 export const DOMAINS = [
+  // Books, classics and scholarship. Korean's drop list says 16,800 words — 44% of its candidate
+  // list — were seen by a web crawl and a Wikipedia and by nothing else. Twenty newspapers could
+  // not reach them, because they are not news vocabulary. These are where they live.
+  'encykorea.aks.ac.kr', 'itkc.or.kr', 'sillok.history.go.kr', 'db.history.go.kr',
+  'munjang.or.kr', 'changbi.com', 'moonji.com', 'ltikorea.or.kr',
+  'nl.go.kr', 'krpia.co.kr',
   // Wire service and the large dailies
   'yna.co.kr',
   'khan.co.kr',

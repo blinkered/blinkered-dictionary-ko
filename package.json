@@ -8,7 +8,8 @@
     "conform": "node conform.mjs",
     "saturation": "node saturation.mjs",
     "verify": "node verify.mjs",
-    "dumps": "node check-dumps.mjs"
+    "dumps": "node check-dumps.mjs",
+    "collections": "node collections.mjs"
   },
   "dependencies": {
     "@blinkered/attestation": "link:../blinkered-attestation",
