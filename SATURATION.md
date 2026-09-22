@@ -8,7 +8,7 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 38,467. Shipped: 24,395.
+Candidates: 38,467. Shipped: 24,400.
 
 Of 24 families, **23 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
@@ -19,27 +19,27 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `commoncrawl` | 0 | 0.0% | — |
 | 2 | `wikimedia` | 0 | 0.0% | — |
-| 3 | `internetarchive` | 21,512 | 55.9% | +21,512 |
-| 4 | `joongang.co.kr` | 23,211 | 60.3% | +1,699 |
-| 5 | `khan.co.kr` | 23,460 | 61.0% | +249 |
-| 6 | `ac.kr` | 23,652 | 61.5% | +192 |
-| 7 | `seoul.co.kr` | 23,757 | 61.8% | +105 |
-| 8 | `tatoeba` | 23,851 | 62.0% | +94 |
-| 9 | `yna.co.kr` | 23,941 | 62.2% | +90 |
-| 10 | `hankyung.com` | 24,010 | 62.4% | +69 |
-| 11 | `jtbc.co.kr` | 24,077 | 62.6% | +67 |
-| 12 | `munhwa.com` | 24,134 | 62.7% | +57 |
-| 13 | `mk.co.kr` | 24,183 | 62.9% | +49 |
-| 14 | `hankookilbo.com` | 24,225 | 63.0% | +42 |
-| 15 | `segye.com` | 24,265 | 63.1% | +40 |
-| 16 | `sisain.co.kr` | 24,303 | 63.2% | +38 |
-| 17 | `zdnet.co.kr` | 24,337 | 63.3% | +34 |
-| 18 | `korea.kr` | 24,357 | 63.3% | +20 |
-| 19 | `ohmynews.com` | 24,373 | 63.4% | +16 |
-| 20 | `mediatoday.co.kr` | 24,385 | 63.4% | +12 |
-| 21 | `bloter.net` | 24,395 | 63.4% | +10 |
-| 22 | `etnews.com` | 24,395 | 63.4% | — |
-| 23 | `imbc.com` | 24,395 | 63.4% | — |
-| 24 | `donga.com` | 24,395 | 63.4% | — |
+| 3 | `internetarchive` | 21,527 | 56.0% | +21,527 |
+| 4 | `joongang.co.kr` | 23,220 | 60.4% | +1,693 |
+| 5 | `khan.co.kr` | 23,468 | 61.0% | +248 |
+| 6 | `ac.kr` | 23,660 | 61.5% | +192 |
+| 7 | `seoul.co.kr` | 23,765 | 61.8% | +105 |
+| 8 | `tatoeba` | 23,859 | 62.0% | +94 |
+| 9 | `yna.co.kr` | 23,947 | 62.3% | +88 |
+| 10 | `hankyung.com` | 24,016 | 62.4% | +69 |
+| 11 | `jtbc.co.kr` | 24,083 | 62.6% | +67 |
+| 12 | `munhwa.com` | 24,139 | 62.8% | +56 |
+| 13 | `mk.co.kr` | 24,188 | 62.9% | +49 |
+| 14 | `hankookilbo.com` | 24,230 | 63.0% | +42 |
+| 15 | `segye.com` | 24,270 | 63.1% | +40 |
+| 16 | `sisain.co.kr` | 24,308 | 63.2% | +38 |
+| 17 | `zdnet.co.kr` | 24,342 | 63.3% | +34 |
+| 18 | `korea.kr` | 24,362 | 63.3% | +20 |
+| 19 | `ohmynews.com` | 24,378 | 63.4% | +16 |
+| 20 | `mediatoday.co.kr` | 24,390 | 63.4% | +12 |
+| 21 | `bloter.net` | 24,400 | 63.4% | +10 |
+| 22 | `etnews.com` | 24,400 | 63.4% | — |
+| 23 | `imbc.com` | 24,400 | 63.4% | — |
+| 24 | `donga.com` | 24,400 | 63.4% | — |
 
-**Diminishing returns from family 5** (`khan.co.kr`, +249), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 5** (`khan.co.kr`, +248), where a family first added less than a twentieth of what the best one did.
